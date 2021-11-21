@@ -2,7 +2,7 @@
     <id>com.kingron.coderobot</id>
     <name>CodeRobot</name>
     <version>1.0</version>
-    <vendor email="254442003@qq.com" url="https://github.com/kingron">Kingron</vendor>
+    <vendor email="kingron.lu@gmail.com" url="https://github.com/kingron">Kingron</vendor>
 
     <description><![CDATA[
       Generate similar code automatically<br>
