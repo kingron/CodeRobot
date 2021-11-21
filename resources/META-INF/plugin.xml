@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>com.kingron.coderobot</id>
+    <name>CodeRobot</name>
+    <version>1.0</version>
+    <vendor email="254442003@qq.com" url="https://github.com/kingron">Kingron</vendor>
+
+    <description><![CDATA[
+      Generate similar code automatically<br>
+      <em>Use template and parameter to generate similar code automatically</em>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      First version<br>
+      <em>Enjoy it!</em>
+    ]]>
+    </change-notes>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action class="CodeRobot" text="Code Robot" description="Generate similar code by template and parameter">
+            <add-to-group group-id="ToolsMenu" anchor="first"></add-to-group>
+            <keyboard-shortcut first-keystroke="ctrl alt G" keymap="$default"></keyboard-shortcut>
+        </action>
+    </actions>
+
+</idea-plugin>
